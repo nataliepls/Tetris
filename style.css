@@ -1,0 +1,55 @@
+.container{
+  display: flex;
+}
+html{
+  background: url(images/PIA23130.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.grid{
+  width: 200px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.grid div{
+  height: 20px;
+  width: 20px;
+
+}
+
+.tetromino{
+  background-color: #6ab01e;
+}
+
+h1{
+  color: #6ab01e;
+}
+
+button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+  background-color: #6ab01e;
+  font-size: 15px;
+}
+
+.mini-grid{
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+
+}
